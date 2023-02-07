@@ -7,8 +7,14 @@ var includedFilesNames = new List<string>();
 string folderPath = @"C:\AirMirData";
 string[] filePaths = Directory.GetFiles(folderPath);
 
+int count = 0;
+
 foreach (string filePath in filePaths)
 {
+    count++;
+    Console.WriteLine($"{count} file has been readed.");
+
+
     StreamReader sr = System.IO.File.OpenText(filePath);
     string contents = sr.ReadToEnd();
 
@@ -22,7 +28,7 @@ foreach (string filePath in filePaths)
 }
 
 if (includedFilesNames.Count > 0)
-    includedFilesNames.ForEach(fileName => Console.WriteLine(fileName + "\n"));
+    includedFilesNames.ForEach(fileName => Console.WriteLine(fileName));
 else
     Console.WriteLine("File Not Found");
 
