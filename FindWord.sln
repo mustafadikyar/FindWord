@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWord", "FindWord\FindWord.csproj", "{0F01EC27-5764-4CFC-A02C-F27F22306740}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWord.Console", "FindWord.Console\FindWord.Console.csproj", "{ABFEAE73-C908-42F8-A0C3-C5F46349B3A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0F01EC27-5764-4CFC-A02C-F27F22306740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F01EC27-5764-4CFC-A02C-F27F22306740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F01EC27-5764-4CFC-A02C-F27F22306740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFEAE73-C908-42F8-A0C3-C5F46349B3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFEAE73-C908-42F8-A0C3-C5F46349B3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFEAE73-C908-42F8-A0C3-C5F46349B3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFEAE73-C908-42F8-A0C3-C5F46349B3A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
